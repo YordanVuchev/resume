@@ -1,0 +1,22 @@
+C++
+
+I dont have any real c++ projects yet, the only thing that i have done close to a project was a simple snake game in the console
+and i have also developed a program that was solving polynomials. Most of the times i was only solving problems using the language.
+
+MySQL
+
+I have built a number of data bases which were just for exercising and to practice the things that i learned. I have also built a
+data base for the project rodnapamet that i was working in with the other programmers.
+
+JS HTML CSS
+
+I have a few projects with javascript, here is a list of them:
+- rodnapamet ( real life project )
+- portfolio website ( real life project )
+- lottary application using React JS ( i took the idea from a course from youtube )
+- website for a food delivery company ( project from a course )
+- simple guess my number game ( project from a course )
+- simple pig game ( project from a course )
+- bankist app ( porject from a course )
+- simple app using map api ( project from a course )
+

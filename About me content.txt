@@ -1,0 +1,8 @@
+My names is Yordan Vuchev. I am 19 years old coder from Bulgaria.
+I have been coding since 10th grade. The coding language that i started with was C++ and i fell in love with it immediately,
+after 1 year of using it i wanted to learn data base and i started learning MySQL. A year later i really wanted to learn how to
+ build web applications and that's why i started learning JavaScript. When i had a decent base of the language i tried building my first
+web application using React JS. I took the idea from a course that i found on youtube but when i was done with it i realised that i have no
+idea how to style it, because i didn't know any css. That's when i started practicing html and css. In 12th grade i was invited by a group
+of programmers to build a website called rodnapamet. I helped them with the JS part and i also used a little bit of php to make the login
+and register system. 

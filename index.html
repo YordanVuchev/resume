@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script defer src="./script.js"></script>
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#">
+      <img class="logo" src="./photos/logo.png" alt="My logo" />
+    </a>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="#section--1">About me</a></li>
+        <li><a class="nav-link" href="#section--2">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section-hero">
+      <div class="hero">
+        <div class="hero-name-box">
+          <h1 class="hero-description">Hi,<br /> I'm <span class="name">Yordan</span>,<br /> coder</h1>
+          <div class="short-description">
+            <p class="short-description-text">I have experience in:</p>
+            <ul class="short-description-list">
+              <li><img class="description-icon" src="./photos/cpp.png" alt="c++" /></li>
+              <li><img class="description-icon" src="./photos/mysql.png" alt="mysql" /></li>
+              <li><img class="description-icon" src="./photos/js.png" alt="JavaScript" /></li>
+              <li><img class="description-icon" src="./photos/html.png" alt="html" /></li>
+              <li><img class="description-icon" src="./photos/css.png" alt="css" /></li>
+            </ul>
+          </div>
+        </div>
+        <div class="hero-img-box">
+          <img class="hero-img" alt="animated coders picture" src="./photos/hero-animated.png" />
+        </div>
+      </div>
+    </section>
+    <section class="section-about" id="section--1">
+      <img class="monitor-img" alt="animated monitor" src="./photos/animated-monitor.png" />
+      <h2 class="about-title waviy">
+        <span style="--i:1">A</span>
+        <span style="--i:2">b</span>
+        <span style="--i:3">o</span>
+        <span style="--i:4">u</span>
+        <span style="--i:5">t</span>
+        <span>&nbsp;</span>
+        <span style="--i:6">m</span>
+        <span style="--i:7">e</span>
+      </h2>
+      <div class="about">
+        <img class="me-img" alt="Picture of me" src="./photos/selfie.jpg" />
+        <p class="about-info"> My names is Yordan Vuchev. I am 19 years old coder from Bulgaria.
+          I have been coding since 10th grade. The coding language that i started with was C++ and i fell in love with
+          it immediately,
+          after 1 year of using it i wanted to learn data base and i started learning MySQL. A year later i really
+          wanted
+          to learn how to
+          build web applications and that's why i started learning JavaScript. When i had a decent base of the language
+          i
+          tried building my first
+          web application using React JS. I took the idea from a course that i found on youtube but when i was done with
+          it i realised that i have no
+          idea how to style it, because i didn't know any css. That's when i started practicing html and css. In 12th
+          grade i was invited by a group
+          of programmers to build a website called rodnapamet. I helped them with the JS part and i also used a little
+          bit
+          of php to make the login
+          and register system.</p>
+      </div>
+    </section>
+    <section class="section-projects" id="section--2">
+      <h2 class="projects-title waviy">
+        <span style="--i:1">P</span>
+        <span style="--i:2">r</span>
+        <span style="--i:3">o</span>
+        <span style="--i:4">j</span>
+        <span style="--i:5">e</span>
+        <span style="--i:6">c</span>
+        <span style="--i:7">t</span>
+        <span style="--i:8">s</span>
+      </h2>
+      <div class="projects">
+        <div class="projects-img-box">
+          <img class="projects-img" src="./photos/coder.png" alt="Image of coder (animated)" />
+        </div>
+        <div class="projects-box">
+          <div class="slider">
+            <div class="slide slide--1 ">
+              <div class="projects-slide-header-box">
+                <img class="projects-slide-img" src="./photos/cpp-slider.png" alt="Icon" />
+                <h3 class="projects-slide-heading">C++</h3>
+              </div>
+              <p class="projects-slide-content">
+                I dont have any real c++ projects yet, the only thing that i have done close to a project was a simple
+                snake game in the console
+                and i have also developed a program that was solving polynomials. Most of the times i was only solving
+                problems using the language.
+              </p>
+            </div>
+            <div class="slide slide--2 hidden">
+              <div class="projects-slide-header-box">
+                <img class="projects-slide-img" src="./photos/database-slider.png" alt="Icon" />
+                <h3 class="projects-slide-heading">MySQL</h3>
+              </div>
+              <p class="projects-slide-content">
+                I have built a number of data bases which were just for exercising and to practice the things that i
+                learned. I have also built a
+                data base for the project rodnapamet that i was working in with the other programmers.
+              </p>
+            </div>
+            <div class="slide slide--3 hidden">
+              <div class="projects-slide-header-box">
+                <img class="projects-slide-img" src="./photos/js-slider.png" alt="Icon" />
+                <h3 class="projects-slide-heading">JavaScript</h3>
+              </div>
+              <p class="projects-slide-content">
+                I have a few projects with javascript, here is a list of them:
+              <h4 class="projects-ideas-title">Real life projects:</h4>
+              <ul class="js-projects-list">
+                <li>rodnapamet </li>
+                <li>portfolio website </li>
+              </ul>
+              <h4 class="projects-ideas-title margin-top--sm">Projects from courses:</h4>
+              <ul class="js-projects-list">
+                <li>lottary application using React JS </li>
+                <li>website for a food delivery company </li>
+                <li>simple guess my number game </li>
+                <li>simple pig game </li>
+                <li>bankist app </li>
+                <li>simple app using map api </li>
+              </ul>
+              </p>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="slide-arrow slide-arrow--left" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="slide-arrow slide-arrow--right" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+            </svg>
+            <div class="dots">
+              <span class="dot dot--active" data-slide="1"></span>
+              <span class="dot" data-slide="2"></span>
+              <span class="dot" data-slide="3"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>
