@@ -90,6 +90,7 @@ sliderLeftArrow.addEventListener("click", function (e) {
 dotsContainer.addEventListener("click", function (e) {
   if (e.target.classList.contains("dot")) {
     const { slide } = e.target.dataset;
+    currSlide = slide;
     changeDot(slide);
     goToSlide(slide);
   }
