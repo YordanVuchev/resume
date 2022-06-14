@@ -76,7 +76,9 @@ const changeDot = function (slide) {
 };
 
 sliderRightArrow.addEventListener("click", function (e) {
+  console.log(currSlide);
   currSlide = nextSlide(currSlide);
+  console.log(currSlide);
   changeDot(currSlide);
   goToSlide(currSlide);
 });
@@ -90,8 +92,8 @@ sliderLeftArrow.addEventListener("click", function (e) {
 dotsContainer.addEventListener("click", function (e) {
   if (e.target.classList.contains("dot")) {
     const { slide } = e.target.dataset;
-    currSlide = slide;
-    changeDot(slide);
-    goToSlide(slide);
+    currSlide = Number(slide);
+    changeDot(currSlide);
+    goToSlide(currSlide);
   }
 });
