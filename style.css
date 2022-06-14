@@ -200,8 +200,8 @@ color: #edf2ff;
   position: absolute;
   top: 50%;
 left: 50%;
--ms-transform: translate(-53%, -62%);
-transform: translate(-53%, -62%);
+-ms-transform: translate(-52.8%, -62.6%);
+transform: translate(-52.8%, -62.6%);
   /* Hiding the scrollbar but still being able to scroll */
 
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
