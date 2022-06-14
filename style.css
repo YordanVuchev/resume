@@ -183,8 +183,8 @@ color: #edf2ff;
 
 .section-about {
   background-color: #fff;
-  padding: 8.6rem 0 30rem 0;
-
+  padding: 8.6rem 0 9.6rem 0;
+  height: 80rem;
   position: relative;
 }
 
@@ -192,13 +192,16 @@ color: #edf2ff;
   width: 38rem;
   height: 27rem;
   background-color: #e0ffff;/*#e0ffff*/
-  margin: 0 auto;
   padding: 3.6rem 3.6rem 3.6rem 3.6rem;
   overflow: scroll;
   /* border-radius: 20px; */
   box-shadow:  2px 2px 40px 1px  #7997a0;
   z-index: 5;
-  position: relative;
+  position: absolute;
+  top: 50%;
+left: 50%;
+-ms-transform: translate(-53%, -62%);
+transform: translate(-53%, -62%);
   /* Hiding the scrollbar but still being able to scroll */
 
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
@@ -210,18 +213,12 @@ color: #edf2ff;
 }
 
 .monitor-img {
-  /* position: absolute;
-  left: 350px;
-  top: 172px;
-  z-index: 1; */
-
-    position: absolute;
-    top: 73.85%;
-    left: 43.05%;
-    width: 60rem;
-    height: 41rem;
-    margin-top: -42rem; /* Half the height */
-    margin-left: -30.35rem; /* Half the width */
+position: absolute;
+margin: 0 ;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -38%);
+transform: translate(-50%, -38%);
 }
 
 @keyframes waviy {
